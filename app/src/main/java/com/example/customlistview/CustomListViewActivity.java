@@ -16,7 +16,7 @@ public class CustomListViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.custom_gridview);
+        setContentView(R.layout.custom_listview);
         listView = findViewById(R.id.idListView);
         listProduct = new ArrayList<>();
         listProduct.add(new Product(1, "Nồi Com Dien", "TC"));
@@ -28,7 +28,7 @@ public class CustomListViewActivity extends AppCompatActivity {
         listProduct.add(new Product(7, "Ca cau 4", "TC 3"));
         listProduct.add(new Product(8, "Ca cau 4", "TC 3"));
 
-        ProductAdapter productAdapter = new ProductAdapter(this, R.layout.item_gridview, listProduct);
+        ProductAdapter productAdapter = new ProductAdapter(this, R.layout.item_list, listProduct);
         listView.setAdapter(productAdapter);
 
 

@@ -30,7 +30,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/idTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="36dp"
@@ -46,8 +46,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                app:layout_constraintStart_toStartOf="@+id/textView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintStart_toStartOf="@+id/idTitle"
+                app:layout_constraintTop_toBottomOf="@+id/idTitle"
                 app:srcCompat="@drawable/group_3" />
 
             <TextView
@@ -63,7 +63,7 @@
                 app:layout_constraintVertical_bias="0.666" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/idPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="69.900 đ"
@@ -74,13 +74,13 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/idPercent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="-39%"
-                app:layout_constraintBottom_toBottomOf="@+id/textView5"
-                app:layout_constraintStart_toEndOf="@+id/textView5"
+                app:layout_constraintBottom_toBottomOf="@+id/idPrice"
+                app:layout_constraintStart_toEndOf="@+id/idPrice"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2"
                 app:layout_constraintVertical_bias="0.285" />
         </androidx.constraintlayout.widget.ConstraintLayout>
