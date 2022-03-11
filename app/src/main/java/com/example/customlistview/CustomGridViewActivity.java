@@ -24,6 +24,12 @@ public class CustomGridViewActivity extends AppCompatActivity {
         listProduct.add(new ProductNew(3 ,"Nồi Com Dien 2", 20000, 30));
         listProduct.add(new ProductNew(4, "Nồi Com Dien 3", 20000, 30));
         listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
+        listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
+        listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
+        listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
+        listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
+        listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
+        listProduct.add(new ProductNew(5, "Nồi Com Dien 4", 20000, 30));
 
 
         ProductAdapterNew productAdapter = new ProductAdapterNew(this, R.layout.item_gridview, listProduct);

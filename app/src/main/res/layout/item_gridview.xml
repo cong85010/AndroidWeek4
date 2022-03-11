@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="98dp"
+        android:layout_height="228dp"
         android:layout_weight="1.0"
         android:gravity="center"
         android:orientation="vertical"
@@ -19,32 +19,32 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="158dp"
-            android:layout_height="110dp"
+            android:layout_width="124dp"
+            android:layout_height="104dp"
             android:contentDescription="@null"
             android:gravity="center"
             android:src="@drawable/ca_nau_lau" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="110dp">
 
             <TextView
                 android:id="@+id/idTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
                 android:text="TextView"
                 android:textColor="@color/black"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="89dp"
+                android:layout_height="20dp"
                 android:layout_marginTop="12dp"
                 app:layout_constraintStart_toStartOf="@+id/idTitle"
                 app:layout_constraintTop_toBottomOf="@+id/idTitle"
@@ -57,6 +57,7 @@
                 android:layout_marginStart="8dp"
                 android:text="(15)"
                 android:textColor="@color/black"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView2"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toTopOf="@+id/imageView2"
@@ -79,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="-39%"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="@+id/idPrice"
                 app:layout_constraintStart_toEndOf="@+id/idPrice"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2"
