@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomListView">
         <activity
-            android:name=".CustomGridViewActivity"
+            android:name=".CustomListViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
